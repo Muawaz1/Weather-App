@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: url("https://media.istockphoto.com/photos/blue-sky-with-cloud-picture-id1151056603?k=20&m=1151056603&s=612x612&w=0&h=WN6KLVUgpIBZWGd__KG54Dt3j7d-5lC493BQ0IM9lX4=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+p {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+button {
+  background-color: #0ea7e3;
+  border: none;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.input-value {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 8%;
+}
+
+.input-value input {
+  width: 250px;
+  height: 30px;
+  background: transparent;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 45%;
+}
+
+main .container .weather-info {
+  margin-top: 55px;
+}
+
+main .location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main .temp {
+  margin-top: 35px;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+main .logo {
+  margin-top: 6%;
+}
+
+main .logo img {
+  width: 150px;
+  height: 150px;
+}
+/*# sourceMappingURL=index.css.map */
