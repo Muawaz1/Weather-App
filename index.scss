@@ -1,72 +1,74 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-  background: url("https://media.istockphoto.com/photos/blue-sky-with-cloud-picture-id1151056603?k=20&m=1151056603&s=612x612&w=0&h=WN6KLVUgpIBZWGd__KG54Dt3j7d-5lC493BQ0IM9lX4=");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
+background: url("https://media.istockphoto.com/photos/blue-sky-with-cloud-picture-id1151056603?k=20&m=1151056603&s=612x612&w=0&h=WN6KLVUgpIBZWGd__KG54Dt3j7d-5lC493BQ0IM9lX4=");
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
 }
-p{
-  font-size: 18px;
+p {
+font-size: 18px;
 }
-h1{
-  font-size: 30px;
+h1 {
+font-size: 30px;
 }
 button{
-  background-color: rgb(14,167,227);
-  border: none;
-  color: white;
-  padding: 7px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+background-color: rgb(14,167,227);
+border: none;
+color: white;
+padding: 7px 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
 }
 .input-value{  
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 8%;
+input{
+  width: 250px;
+  height: 30px;
+  background: transparent;
+}
+}
+main {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+height: 100vh;
+.container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 8%;
-  input{
-    width: 250px;
-    height: 30px;
-    background: transparent;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 45%;
+  .weather-info {
+    margin-top: 55px;
   }
 }
-main{
+.location {
+  display: flex;
+  flex-direction: row;
+}
+.temp {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-  .container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 45%;
-    .weather-info{
-      margin-top: 55px;
-    }
+  margin-top: 35px;
+  font-size: 35px;
+  font-weight: 500;
+}
+.logo {
+  margin-top: 6%;
+  img {
+    width: 150px;
+    height:150px
   }
-  .location{
-    display: flex;
-    flex-direction: row;
-  }
-  .temp {
-    margin-top: 35px;
-    font-size: 35px;
-    font-weight: 500;
-  }
-  .logo{
-    margin-top: 6%;
-    img {
-      width: 150px;
-      height:150px
-    }
-  }
+}
 }

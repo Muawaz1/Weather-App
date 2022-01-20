@@ -7,7 +7,7 @@ var pressure = document.querySelector(".pressure")
 var wind = document.querySelector(".wind")
 var desc = document.querySelector(".desc")
 
-button.addEventListener('click', async function(){
+button.addEventListener('click', async function() {
     await fetch('http://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&appid=a74260e5a8ce54585270dda750cd577e')
     .then(res => res.json())
     .then( data => {
@@ -21,5 +21,5 @@ button.addEventListener('click', async function(){
     })
     .catch(err =>alert("Wrong City Name"))
 })
-showWeather()
+
 
